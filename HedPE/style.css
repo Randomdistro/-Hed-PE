@@ -14,8 +14,8 @@ header {
     right: 0;
     top: 5px;
     height: 60px;
-    display: flex;
     align-items: center;
+    text-align: center;
     box-shadow: 0 0 25px 0 black;
 }
 
@@ -27,10 +27,17 @@ header li {
     margin: 20px;
 }
 
-header li a {
-    color: blue;
+a {
+    color: white;
     text-decoration: none;
     text-shadow: 2px 2px black;
+    width: 33.33%;
+}
+
+.clearfix {
+    content: "";
+    clear: both;
+    display: table;
 }
 
 html {
@@ -40,7 +47,9 @@ html {
 }
 
 h1 {
-    font-weight: bolder;
+    font-size: 102px;
+    font-weight: boldest;
+    text-decoration: underline;
 }
 
 .tracklist {
@@ -50,7 +59,41 @@ h1 {
 
 p {
     box-sizing: border-box;
+    border: 2px rebeccapurple;
     float: left;
-    width: 33.33%;
+    width: 50%;
     padding: 20px;
+    font-size: 20px;
+}
+
+.image-banner-fit {
+    max-width: fit-content;
+    max-height: fit-content;
+}
+
+.img p {
+    float: right;
+    font-size: 26px;
+    width: 900px;
+    text-align: justify;
+    margin-right: 40px;
+}
+
+.track-box {
+    height: 40px;
+    width: 600px;
+    background-color: gray;
+    border: 1px solid black;
+    margin-top: 3px;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: 2px;
+    padding-right: 10px;
+    text-align: left;
+    text-shadow: 1px 1px white;
+    clear: both;
+}
+
+.time {
+    float: right;
 }
