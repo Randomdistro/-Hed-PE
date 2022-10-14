@@ -4,7 +4,25 @@
     <title>
         (Hed)P.E. biography
     </title>
+    </title>
     <style type=text/css>
+        th {
+            font-size: 22pt;
+        }
+        
+        td {
+            font-size: 22pt;
+        }
+        
+        firstheading {
+            display: inline-flex;
+            margin: -35px;
+            font-size: 167pt;
+            padding-left: 30px;
+            padding-right: 30px;
+            transform: scaleY(50%);
+        }
+        
         body {
             height: 125vh;
             margin-top: 80px;
@@ -16,13 +34,14 @@
         header {
             background-color: rgb(235, 95, 39);
             position: fixed;
-            left: 0;
-            right: 0;
-            top: 5px;
-            height: 30px;
+            left: 200px;
+            right: 200px;
+            top: 17px;
+            height: 77px;
             display: flex;
             align-items: center;
             box-shadow: 0 0 25px 0 black;
+            justify-content: center;
         }
         
         header * {
@@ -34,8 +53,49 @@
         }
         
         header li a {
-            color: blue;
-            text-decoration: none;
+            color: rgb(9, 9, 49);
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial;
+            font-size: 67px;
+        }
+        
+        .p {
+            box-sizing: border-box;
+            border: 2px rebeccapurple;
+            float: left;
+            width: 50%;
+            padding: 20px;
+            font-size: 44pt;
+        }
+        
+        .track-box {
+            height: 25px;
+            width: 500px;
+            border: 1px;
+            border: solid black;
+            margin-top: 2px;
+            margin-left: 5px;
+            margin-right: 15px;
+            padding: 2px;
+            padding-right: 10px;
+            text-align: left;
+        }
+        
+        .time {
+            text-align: center;
+        }
+        
+        .albumcover {
+            Display: inline;
+            float: inline-start;
+            width: 49%;
+            margin-right: 22px;
+            margin-left: 44px;
+        }
+        
+        .playlist {
+            display: inline;
+            position: absolute;
+            justify-content: relative;
         }
     </style>
 </Head>
@@ -60,9 +120,11 @@
     <div>
         <img src="https://premium-storefronts.s3.amazonaws.com/storefronts/hedpe/assets/bg_home_banner.jpeg" alt="HedPE banner">
     </div>
-    <h1 id="title"><strong>BIOGRAPHY</strong> </h1><br>
-    <h2>Band members
-        <h2><br>
+    <firstheading><strong>BIOGRAPHY</strong> </firstheading>
+
+    <h1>Band members
+        <h1>
+            <br>
             </h3> Current members</h3><br>
             <ul>
                 <li>

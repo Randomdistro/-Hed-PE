@@ -6,6 +6,23 @@
         (Hed)P.E. homepage
     </title>
     <style type=text/css>
+        th {
+            font-size: 22pt;
+        }
+        
+        td {
+            font-size: 22pt;
+        }
+        
+        firstheading {
+            display: inline-flex;
+            margin: -35px;
+            font-size: 167pt;
+            padding-left: 30px;
+            padding-right: 30px;
+            transform: scaleY(50%);
+        }
+        
         body {
             height: 125vh;
             margin-top: 80px;
@@ -15,15 +32,16 @@
         }
         
         header {
-            background-color: orange;
+            background-color: rgb(235, 95, 39);
             position: fixed;
-            left: 0;
-            right: 0;
-            top: 5px;
-            height: 30px;
+            left: 200px;
+            right: 200px;
+            top: 17px;
+            height: 77px;
             display: flex;
             align-items: center;
             box-shadow: 0 0 25px 0 black;
+            justify-content: center;
         }
         
         header * {
@@ -35,14 +53,56 @@
         }
         
         header li a {
-            color: blue;
-            text-decoration: none;
+            color: rgb(9, 9, 49);
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial;
+            font-size: 67px;
+        }
+        
+        .p {
+            box-sizing: border-box;
+            border: 2px rebeccapurple;
+            float: left;
+            width: 50%;
+            padding: 20px;
+            font-size: 44pt;
+        }
+        
+        .track-box {
+            height: 25px;
+            width: 500px;
+            border: 1px;
+            border: solid black;
+            margin-top: 2px;
+            margin-left: 5px;
+            margin-right: 15px;
+            padding: 2px;
+            padding-right: 10px;
+            text-align: left;
+        }
+        
+        .time {
+            text-align: center;
+        }
+        
+        .albumcover {
+            Display: inline;
+            float: inline-start;
+            width: 49%;
+            margin-right: 22px;
+            margin-left: 44px;
+        }
+        
+        .playlist {
+            display: inline;
+            position: absolute;
+            justify-content: relative;
         }
     </style>
 
 </head>
 
 <body>
+
     <header>
         <nav>
             <ul>
@@ -53,14 +113,16 @@
                     <a href="Biography"> biography </a>
                 </li>
                 <li>
+                    </p>
                     <a href="discography"> discography </a>
+
                 </li>
-            </ul>
         </nav>
     </header>
 
-    <img src="https://premium-storefronts.s3.amazonaws.com/storefronts/hedpe/assets/bg_home_banner.jpeg" alt="HedPE banner">>
-
+    <div>
+        <img style="height: 100%; width: 100%; object-fit: contain" src="https://premium-storefronts.s3.amazonaws.com/storefronts/hedpe/assets/bg_home_banner.jpeg" alt="HedPE banner">>
+    </div>
     <h1><strong>(Hed) PE</strong></h1>
 
     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7oeADjUCtdhrseP_-eEghBWXCB12p437X-Q&usqp=CAU" alt="Hed pe band">
@@ -84,7 +146,8 @@
     </div>
     <div>
         <p> Since 2014, the band has been signed with Pavement Music. Since then, the band has become known for its involvement in the 9/11 Truth movement, referencing it in many of their song lyrics and concerts, as well as the concept of the album New World
-            Orphans.</p>
+            Orphans.
+        </p>
     </div>
     <div>
         <img src="https://i.discogs.com/DGLfGeyxN08hKk7BrmE5r7WxJcghTxPF2v0KVCVzAUs/rs:fit/g:sm/q:40/h:300/w:300/czM6Ly9kaXNjb2dz/LWltYWdlcy9BLTI1/MjcxNy0xNDY5Mjk3/ODc5LTgzOTkuZ2lm.jpeg" alt="hed pe group photo">
@@ -101,4 +164,6 @@
     <img src="https://ents24.imgix.net/image/000/032/676/7ef83f19da169f8879b6ea7d62f142249618cd8f.jpg?auto=format&crop=faces&w=1920&h=1080" alt="HedPE again!">
 </body>
 
-</html>
+<footer>
+    <p>This bogus student starter fanboy site copyright James Tyndall &copy </p>
+</footer>
